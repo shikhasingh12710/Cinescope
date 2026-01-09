@@ -1,0 +1,29 @@
+.movie-card {
+  display: flex;
+  gap: 20px;
+  background: #121212;
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 700px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7);
+}
+
+.movie-card img {
+  width: 200px;
+  border-radius: 8px;
+}
+
+.movie-info h2 {
+  margin-top: 0;
+}
+
+.movie-info p {
+  margin: 6px 0;
+  color: #ddd;
+}
+
+.plot {
+  margin-top: 10px;
+  font-size: 0.95rem;
+  color: #bbb;
+}
